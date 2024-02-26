@@ -92,6 +92,11 @@ footer {
     background-color:rgb(101, 72, 72);
     height: 100px;
 }
+footer a {
+    text-transform: capitalize;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
 
 #engage {
     text-align: center;

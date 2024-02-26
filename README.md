@@ -1,3 +1,3 @@
-# cheat-sheet
+# CHEAT-SHEET
 Web Development project
 

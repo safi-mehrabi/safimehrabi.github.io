@@ -1,0 +1,107 @@
+body {
+    background-color:floralwhite;
+}
+.navbar {
+    background-color:rgb(101, 72, 72);
+    font-family: Georgia;
+    font-size: 20px;
+    color:black;
+    display: flex;
+    margin: 20px 0;
+    padding: 0 20px;
+}
+.navbar ul {
+    display: flex;
+}
+h1 {
+    background-color:cornflowerblue;
+    color: white;
+}
+a {
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 18px;
+    margin-left: 20px;
+}
+.navbar li {
+    margin-right: 50px;
+}
+
+img {
+    width: 500px;
+    border: 5px solid  rgb(241, 235, 235);
+    margin: 10px 100px 50px 120px;
+    border-radius: 50px;
+    display: inline-block;
+}
+p {
+    font-size: 20px;
+    text-align: left;
+    line-height: 1.7;
+}
+h2 {
+    background-color:orange;
+    color: white;
+}
+
+table {
+    font-size: 16px;
+    background-color:rgb(23, 179, 182);
+    color: aliceblue;
+    border-collapse: collapse;
+    margin: 10px 100px 50px 120px;
+}
+thead th {
+    background-color:rgb(157, 39, 122);
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px solid black;
+
+}
+th, td {
+    border: 0.5px solid black;
+    text-align: center;
+    height: 45px;
+}
+
+/* this increase the width of second column */
+td:nth-child(2) {
+    width: 170px;
+
+}
+/* this increase the width of first column */
+
+td:nth-child(1) {
+    width: 50px;
+}
+
+/* this increase the width of third column */
+td:nth-child(3) {
+    width: 140px;
+}
+/* this increase the width of 4th column */
+td:nth-child(4) {
+    width: 900px;
+}
+
+footer {
+    background-color:rgb(101, 72, 72);
+    height: 100px;
+}
+
+#engage {
+    text-align: center;
+    font-size: 16px;
+    line-height: 0.5;
+    padding: 20px 80px 2px 5px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-style: italic;
+    text-transform: capitalize;
+    color: white;
+    height: 20px;
+}
